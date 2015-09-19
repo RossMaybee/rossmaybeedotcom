@@ -1,0 +1,136 @@
+/* ===============================
+   Author: Ross Maybee
+   Date:   20150104
+   
+   Notes:
+   Hand coded 
+   
+   Colour Palette:
+   ---------------
+   Light Cream:		#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   Blue: 			#0000FF
+   Cornflower Blue: #6495ED
+   Lighter Gray:	#EDEDED
+   Light Coral:		#F08080
+   =============================== */
+
+/* General */
+
+html {
+	background-color: #EDEDED;
+	background-image: url("../images/DardenBWDarkResized.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Normalize */
+header, section, footer, aside, nav, artile, figure, figcaption {
+	display: block
+}
+
+body {
+	width: 100%;
+	margin 0 auto;
+	color: white;
+	font-family: Futura, Helvetica, sans-serif;
+	margin: 0px;
+}
+
+header {
+	width: 90%;
+	margin: 20px auto 20px auto;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+nav, footer {
+	clear: both;
+	height: 40px;
+}
+
+nav ul {
+	margin: 10px 0;
+	padding: 10px auto 5px auto;
+	text-align: center;
+	color: #6495ED;
+}
+
+nav li {
+	display: inline;
+	font-size: 20px;
+}
+
+nav li a:visited {
+	color: #6495ED;
+}
+
+nav li a:hover {
+	color: #F08080;
+}
+
+#banner {
+	padding: 120px 0 0 0;
+	text-align: center;
+	font-size: 50px;
+}
+
+#skills {
+	margin: 5px auto 5px auto;
+	padding: 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+#story-excerpt {
+	margin: 5px auto 5px auto;
+	padding: 0;
+	text-align: center;
+	font-size: 16px;
+}
+
+#story-excerpt a {
+	color: #6495ED;
+}
+
+#story-excerpt a:visited {
+	color: #6495ED;
+}
+
+#story-excerpt a:hover {
+	color: #F08080;
+}
+
+#copyright, #credits {
+	width: 240px;
+	font-weight: bold;
+	float: left;
+	padding: 0 0 10px 0;
+	color: white;
+}
+
+
+#credits {
+	float: right;
+	vertical-align: bottom;
+}
+
+#credits a {
+	color: #6495ED;
+}
+
+#credits a:visited {
+	color: #6495ED;
+}
+
+#credits a:hover {
+	color: #F08080;
+}
+
+
