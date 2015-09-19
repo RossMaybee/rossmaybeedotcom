@@ -14,14 +14,14 @@
    Blue: 			#0000FF
    Cornflower Blue: #6495ED
    Lighter Gray:	#EDEDED
+   Dark Gray: 		#666699
    Light Coral:		#F08080
    =============================== */
 
 /* General */
 
 html {
-	background-color: #EDEDED;
-	background-image: url("../images/PleaseStandByDark.jpg");
+	background-color: #666699;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 50% 50%;
